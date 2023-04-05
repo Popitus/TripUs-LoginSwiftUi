@@ -12,11 +12,14 @@ struct NoAccountView: View {
         HStack {
             Text("Don´t have an account?")
                 .foregroundColor(Color.white)
+                .font(.system(size: 14))
             Button {
                 
             } label: {
                Text ("SIGN UP")
                     .foregroundColor(Color.gray)
+                    .font(.system(size: 14))
+
             }
             
         }
